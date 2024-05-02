@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sectionOne{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(216, 211, 211);
+}
+
+.sectionOne a{
+    text-decoration: none;
+    color: 313133;
+    
+}
+
+
+.sectionOne .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .logo{
+    margin-left: 100px;
+}
+
+
+.look{
+    display: flex;
+   align-items: center;
+   margin-top: 25px;
+}
+
+.navbar .search{
+    width: 70px;
+    height: 50px;
+    
+}
+
+
+.search{
+margin-left: 100px;
+}
+
+.account{
+    margin-left: 350px;
+    position: relative;
+    margin-top: 25px;
+   
+}
+
+.account a{
+    color: black;
+}
+
+.hide{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: FFFFFF;
+
+    /* margin-top: 20px; */
+    color: 313133;
+    position: absolute;
+    display: none
+}
+
+.account:hover .hide{
+    display: block;
+}
+
+
+.help:hover .hide{
+    display: block;
+}
+
+.help{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 25px;
+}
+
+.help a{
+    color: black;
+}
+
+
+.center{
+    display: flex;
+
+}
+
+.orders{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+
+.cart img{
+    width: 22px;
+    height: 22px;
+    /* background-color: purple; */
+}
+
+
+.cart{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.cart a{
+    color: black;
+}
+
+.sectionOne .body{
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.sectionOne .navigationItems{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height: 389px;
+    background-color: #FFFFFF;
+    line-height: 25px;
+    border-radius: 5px 5px;
+    
+}
+
+.navigationItems a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigationItems ul{
+    list-style-type: none;
+}
+
+.slideshow{
+    height: 389px;
+    width: 800px;
+    background-image: url(/photos/KE_Food_FS_KFC_SW2_0723_S_rvsd.jpg);
+    background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  border-radius: 5px 5px;
+  margin-left: 10px;
+}
+
+.helpCenter{
+margin-left: 10px;
+}
+
+.easy{
+    width: 200px;
+    height: 185px;
+    background-color: aqua;
+    margin-top: 48px;
+    border-radius: 5px 5px;
+    
+    
+}
+
+/* SECTION ZERO */
+
+.sectionzero .helpp{
+    width: 200px;
+    height: 190px;
+    background-color: #FFFFFF;
+    margin-left: 10%;
+   margin-top: 50px;
+    border-radius: 10px;
+      
+}
+.helpp .duvet{
+    height: 29%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    display: flex;
+}
+.helpp .menu{
+    height: 80%;
+    width: 25%;
+    /* background-color: black; */
+    background-position: center;
+    background-size: cover;
+    margin-top: 3px;
+}
+.helpp .words{
+    margin-top: 14px;
+    margin-left: 5px;
+
+}
+.helpp h2{
+    font-size: medium;
+    
+}
+.helpp h3{
+    font-size: medium;
+    font-weight: 100;
+}
+.center .menu{
+    background-image: url(/photos/qyestionjumia.jpg);
+}
+.return .menu{
+    background-image: url(/photos/boxjumia.jpg);
+}
+.onjm .menu{
+    background-image: url(/photos/moneyjumia.jpg);
+}
+
+.easy a{
+    color: black;
+}
+
+.guide{
+    display: flex;
+    flex-direction: column;
+}
+
+.quick{
+    display: flex;
+    flex-direction: column;
+}
+
+.helpCenter h2{
+    font-size: 20px;
+}
+
+.slideshow2{
+    width: 200px;
+    height: 185px;
+    background-color:green;
+     margin-top: -250px; 
+     margin-left: 1050px;
+    border-radius: 5px 5px;
+    background-image: url(/photos/KE_Cross_PrimeCustomer_Generic_1221_BF-under-5K.gif);
+}
+
+/* SECTION TWO */
+
+.sectionTwo{
+    height: max-content;
+    width: 100vw;
+    background-color: #F1F1F2;
+}
+
+
+.mwili{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: orangered; */
+}
+.grp{
+    height: max-content;
+    width: 100%;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.advert{
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    border-radius: 15px;
+    
+}
+.mwili .grpd2{
+    height: max-content;
+    width: 100%;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.mwili .kipasho{
+    height: 400px;
+    width: 400px;
+    /* background-color: blue; */
+    border-radius: 15px;
+}
+.mwili h2{
+    font-size: 15px;
+    font-weight: 200;
+}
+.mwili .pics{
+    height: 88%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.phones .pics{
+    background-image: url(/photos/phones.jpg);
+}
+.sale .pics{
+    background-image: url(/photos/off.jpg);
+}
+.TV .pics{
+    background-image: url(/photos/TVs.jpg);
+}
+.Fridges .pics{
+    background-image: url(/photos/Fridges.jpg);
+}
+.small .pics{
+    background-image: url(/photos/applia.jpg);
+}
+.sneakers .pics{
+    background-image: url(/photos/Sneakers.jpg);
+}
+.kitchen .pics{
+    background-image: url(/photos/KitchenDinning.jpg);
+}
+.data .pics{
+    background-image: url(/photos/DataStorage.jpg);
+}
+.women .pics{
+    background-image: url(/photos/Womens_Clothing.jpg);
+}
+.home .pics{
+    background-image: url(/photos/Speakers.jpg);
+}
+.fragance .pics{
+    background-image: url(/photos/Fragrances.jpg);
+}
+.jfood .pics{
+    background-image: url(/photos/Food.jpg);
+}
+.sectionThree{
+    height: 60vh;
+    width: 100vw;
+    /* background-color: blue; */
+}
+.sectionThree .flashsale{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F1F2;
+    display: flex;
+    justify-content: space-around;
+}
+.flashsale .assign{
+    height: 75%;
+    width: 16%;
+    background-color: white; 
+    
+}
+.flashsale .assign img{ 
+    height: 62%;
+    width: 100%;
+    /* background-color: aqua;  */
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+/* .Vitron .pics{
+    background-image: url(/photos/vitron\ 1.jpg);
+}
+
+*/
+/* .vsmart .pics{
+    background-image: url(/photos/vitron\ 2.jpg );
+}
+.xiaomi .pics{
+    background-image: url(/photos/xiaomi\ 3.jpg);
+}
+.vision .pics{
+    background-image: url(/photos/vision4.jpg);
+}
+.seagrams .pics{
+    background-image: url(/photos/seagrams.jpg);
+}
+.salit .pics{
+    background-image: url(/photos/6salit.jpg);
+}  */
+
+.sectionThree h2{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+@media(max-width : 1024px){
+    .sectionOne {flex-wrap: wrap;}
+    .sectionOne div{
+        width: 100%;
+        height: 20%;
+}
+
+.body{
+    flex-direction: column;
+    height: max-content;
+    &&
+    .navigationItems{
+        width: 90%;
+        margin-left: 0;
+        &&
+        a{
+            margin-left: 30px;
+        }
+    }
+
+    .slideshow{
+        width: 90%;
+        height: 400px;
+    }
+
+    .grp{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 2px;
+        flex-wrap: wrap;
+        &&
+
+.advert{
+    width: 90%;
+    height: 50%;
+}
+    }
+}
+}
+
